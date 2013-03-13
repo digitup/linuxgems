@@ -585,3 +585,8 @@ mysqldump -u username -p --opt databasename > dumpfile.sql
 
 # restore from entire database dump:
 mysql -u username -p --database=databasename < dumpfile.sql
+
+# Apache Disable the default directory listing
+#EXAMPLES
+a2dissite default
+#Disables the default site.
